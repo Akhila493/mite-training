@@ -20,7 +20,9 @@ int main() {
     int experience;
     readDetails(&salary,&score,&experience);
     if(isEligible(salary,score,experience)){
-        printf("loan approved");
+        printf("loan approved\n");
+    } else {
+        printf("loan rejected\n");
     }
     return 0;
 }
